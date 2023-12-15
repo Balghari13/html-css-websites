@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Web</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>Wonderful GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+    <div class="title">
+            <h2>Up Comming Events</h2>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./img/img1.png" alt="">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis dolorem, quos tempora ab sed, mollitia ipsam cumque, quibusdam quo reprehenderit perferendis commodi nulla? Recusandae corrupti quae dolorum dolor provident?
+            Maxime amet laborum, cupiditate omnis minus doloremque quia quibusdam, delectus vel animi dolorem officia beatae eaque iure. Perspiciatis atque quo minus amet, quas minima voluptatem. Eum fuga nihil porro iste.
+            Ipsa rem quae est, dolore nemo nobis accusantium, earum quidem doloribus a voluptatibus repudiandae ducimus tempore adipisci sed consectetur sequi magnam incidunt, repellendus cupiditate temporibus. Sequi velit ut natus fugiat!
+            Perferendis labore porro optio, necessitatibus iste officiis. Velit illum numquam dignissimos sint vero exercitationem maiores perferendis? Dolores, iure ex neque voluptates harum non suscipit, delectus nihil eligendi ipsam animi totam.
+            Eos facilis maiores dolorum quas praesentium ex placeat vero neque nulla minus, maxime eaque ab vitae rerum libero aspernatur provident? Ratione officiis ad ducimus tempora aliquam mollitia facere illum.
+             Quisquam.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="./img/img2.png" alt="">
+            <h4>K2 Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos sed id voluptatem, eveniet ab odit sint esse eaque nisi obcaecati porro quam provident dolore animi voluptate ex neque dicta veritatis!
+            Non porro ea quasi fuga? Cumque molestias porro perferendis? Quisquam in iure velit eveniet consequuntur accusantium repudiandae laboriosam nisi nostrum quia laudantium, doloribus sequi delectus minus neque reiciendis nobis est?
+            Assumenda fuga sapiente labore debitis inventore nisi! Est sit voluptatem eligendi odit debitis at consequatur praesentium enim eos autem delectus reprehenderit illum consectetur atque, quis, quasi pariatur dolor, amet omnis.
+            Vero error illum dolore, totam sunt harum voluptatem odio! Molestias blanditiis, tempora sapiente recusandae perferendis asperiores ut laboriosam nulla tenetur doloribus dolores corrupti corporis numquam soluta necessitatibus adipisci nobis voluptate!
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore the World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor
+                  ducimus necessitatibus quibusdam
+                   beatae, ipsam rem.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours & Distination</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt tempore modi facere dolorem culpa illo ut atque vel quisquam. Doloribus impedit eligendi ipsum rem, 
+                    explicabo ea assumenda! Totam, animi?</p>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+            <div class="col img-col">
+                <div class="img-gallary">
+                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img5.png" alt="">
+                    <img src="./img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+<p>lorem dfhskjdfhas fdjfhaslkdfh jhdfjasf</p>
+<p>dfjsfhaksjdfsafhds</p>
+    </section>
+
+</body>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
